@@ -1,0 +1,377 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\services\\insightsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\services\\insightsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\services\\statisticsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\settings\\githubsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\settings\\githubsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\clients\\githubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\clients\\githubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\clients\\igithubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\clients\\igithubclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\github\\repodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\github\\repodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\github\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\github\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\clients\\newsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\clients\\newsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\clients\\inewsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\clients\\inewsclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\news\\newsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\news\\newsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\news\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\news\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\openweathersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\openweathersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\globalinsightsapi_assessment.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\controllers\\weathercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\settings\\openweathersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\settings\\openweathersettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\clients\\iweatherclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\clients\\iweatherclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\weather\\weatherinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\weather\\weatherinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\weather\\weathersnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\weather\\weathersnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\weather\\historicalweatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\weather\\historicalweatherdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|c:\\users\\f.pallikaris\\desktop\\assessment\\globalinsightsapi_assessment\\globalinsightsapi_assessment\\models-settings\\newsapisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF0E13F-A249-44B0-A96C-90895521F9D9}|GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj|solutionrelative:globalinsightsapi_assessment\\models-settings\\newsapisettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InsightsService.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Services\\InsightsService.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Services\\InsightsService.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Services\\InsightsService.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Services\\InsightsService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAiwBwAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T13:02:10.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatisticsService.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Services\\StatisticsService.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Services\\StatisticsService.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Services\\StatisticsService.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Services\\StatisticsService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T13:01:42.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GitHubSettings.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\Settings\\GitHubSettings.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\Settings\\GitHubSettings.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\Settings\\GitHubSettings.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\Settings\\GitHubSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:59:15.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GitHubClient.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Clients\\GitHubClient.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Clients\\GitHubClient.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Clients\\GitHubClient.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Clients\\GitHubClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:52:45.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGitHubClient.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Clients\\IGitHubClient.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Clients\\IGitHubClient.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Clients\\IGitHubClient.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Clients\\IGitHubClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:51:56.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RepoData.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\GitHub\\RepoData.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\GitHub\\RepoData.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\GitHub\\RepoData.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\GitHub\\RepoData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:50:27.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\GitHub\\Repository.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\GitHub\\Repository.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\GitHub\\Repository.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\GitHub\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:49:56.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NewsClient.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Clients\\NewsClient.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Clients\\NewsClient.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Clients\\NewsClient.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Clients\\NewsClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:47:42.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "INewsClient.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Clients\\INewsClient.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Clients\\INewsClient.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Clients\\INewsClient.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Clients\\INewsClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:46:10.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NewsData.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\News\\NewsData.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\News\\NewsData.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\News\\NewsData.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\News\\NewsData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:45:21.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\News\\Article.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\News\\Article.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\News\\Article.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\News\\Article.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T12:43:32.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GlobalInsightsApi_Assessment.csproj",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-31T11:37:14.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeatherController.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Controllers\\WeatherController.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Controllers\\WeatherController.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Controllers\\WeatherController.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Controllers\\WeatherController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:25:45.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OpenWeatherSettings.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\Settings\\OpenWeatherSettings.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\Settings\\OpenWeatherSettings.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\Settings\\OpenWeatherSettings.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\Settings\\OpenWeatherSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:16:15.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IWeatherClient.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Clients\\IWeatherClient.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Clients\\IWeatherClient.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Clients\\IWeatherClient.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Clients\\IWeatherClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:14:27.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WeatherInfo.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\WeatherInfo.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\WeatherInfo.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\WeatherInfo.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\WeatherInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:12:49.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeatherSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\WeatherSnapshot.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\WeatherSnapshot.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\WeatherSnapshot.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\WeatherSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:12:07.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HistoricalWeatherData.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\HistoricalWeatherData.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\HistoricalWeatherData.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\HistoricalWeatherData.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\Weather\\HistoricalWeatherData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T11:08:59.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NewsApiSettings.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\NewsApiSettings.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\NewsApiSettings.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\NewsApiSettings.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\NewsApiSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:36:02.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OpenWeatherSettings.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\OpenWeatherSettings.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Models-Settings\\OpenWeatherSettings.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Models-Settings\\OpenWeatherSettings.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Models-Settings\\OpenWeatherSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:35:35.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\appsettings.json",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\appsettings.json",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\appsettings.json",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-30T12:28:29.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Program.cs",
+              "RelativeDocumentMoniker": "GlobalInsightsApi_Assessment\\Program.cs",
+              "ToolTip": "C:\\Users\\f.pallikaris\\Desktop\\Assessment\\GlobalInsightsApi_Assessment\\GlobalInsightsApi_Assessment\\Program.cs",
+              "RelativeToolTip": "GlobalInsightsApi_Assessment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T12:28:15.48Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

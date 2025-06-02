@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "GlobalInsightsApi_Assessment.Controllers.WeatherController",
+    "Method": "GetHistorical",
+    "RelativePath": "api/Weather/historical",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lat",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "lon",
+        "Type": "System.Double",
+        "IsRequired": false
+      },
+      {
+        "Name": "date",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GlobalInsightsApi_Assessment.Models_Settings.Weather.HistoricalWeatherData",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
