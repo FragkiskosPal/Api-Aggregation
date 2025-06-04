@@ -1,5 +1,6 @@
 using System.Net.Http.Json;
 using System.Text.Json;
+using System.Collections.Generic;
 using GlobalInsightsApi_Assessment.Models_Settings.Settings;
 using GlobalInsightsApi_Assessment.Models_Settings.Weather;
 using Microsoft.Extensions.Options;
@@ -98,11 +99,14 @@ public class WeatherClient : IWeatherClient
             FeelsLike = snapshot.FeelsLike,
             Humidity = snapshot.Humidity,
             WindSpeed = snapshot.WindSpeed,
-            Weather = new WeatherInfo
+            Weather = new List<WeatherInfo>
             {
-                Main = snapshot.Weather.FirstOrDefault()?.Main ?? string.Empty,
-                Description = snapshot.Weather.FirstOrDefault()?.Description ?? string.Empty,
-                Icon = snapshot.Weather.FirstOrDefault()?.Icon ?? string.Empty
+                new WeatherInfo
+                {
+                    Main = snapshot.Weather.FirstOrDefault()?.Main ?? string.Empty,
+                    Description = snapshot.Weather.FirstOrDefault()?.Description ?? string.Empty,
+                    Icon = snapshot.Weather.FirstOrDefault()?.Icon ?? string.Empty
+                }
             }
         };
     }

@@ -1,4 +1,5 @@
 using GlobalInsightsApi_Assessment.Services;
+using System.ComponentModel.DataAnnotations;
 using Xunit;
 using Moq;
 using Microsoft.Extensions.Logging;

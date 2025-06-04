@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using System.Collections.Generic;
 using GlobalInsightsApi_Assessment.Exceptions;
 
 namespace GlobalInsightsApi_Assessment.Services;
@@ -8,6 +9,9 @@ public class ValidationService : IValidationService
     private readonly ILogger<ValidationService> _logger;
     private static readonly Regex CityRegex = new(@"^[a-zA-Z\s\-']{2,50}$", RegexOptions.Compiled);
     private static readonly Regex UsernameRegex = new(@"^[a-zA-Z0-9](?:[a-zA-Z0-9]|-(?=[a-zA-Z0-9])){0,38}$", RegexOptions.Compiled);
+    private static readonly HashSet<string> AllowedCategories = new(
+        new[] { "technology", "business", "sports" },
+        StringComparer.OrdinalIgnoreCase);
 
     public ValidationService(ILogger<ValidationService> logger)
     {
@@ -58,6 +62,20 @@ public class ValidationService : IValidationService
         }
 
         _logger.LogDebug("News query validated: {Query}", query);
+    }
+
+    public void ValidateNewsCategory(string category)
+    {
+        if (string.IsNullOrWhiteSpace(category) || !AllowedCategories.Contains(category))
+        {
+            throw new ApiException(
+                "Invalid news category",
+                StatusCodes.Status400BadRequest,
+                ErrorCodes.ValidationError,
+                new { Field = "category", Message = "Unsupported news category" });
+        }
+
+        _logger.LogDebug("News category validated: {Category}", category);
     }
 
     public void ValidateGitHubUsername(string username)

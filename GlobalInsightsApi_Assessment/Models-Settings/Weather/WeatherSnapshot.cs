@@ -9,10 +9,19 @@ namespace GlobalInsightsApi_Assessment.Models_Settings.Weather
     public class WeatherSnapshot
     {
         [JsonProperty("dt")]
-        public long Timestamp { get; set; }      // UNIX timestamp σε δευτερόλεπτα
+        public DateTime Timestamp { get; set; }
 
         [JsonProperty("temp")]
-        public double Temperature { get; set; }  // Θερμοκρασία ( Kelvin ή Celsius αν έχεις units=metric )
+        public double Temperature { get; set; }
+
+        [JsonProperty("feels_like")]
+        public double FeelsLike { get; set; }
+
+        [JsonProperty("humidity")]
+        public double Humidity { get; set; }
+
+        [JsonProperty("wind_speed")]
+        public double WindSpeed { get; set; }
 
         [JsonProperty("weather")]
         public List<WeatherInfo> Weather { get; set; } = new();
