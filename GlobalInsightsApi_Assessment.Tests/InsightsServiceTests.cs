@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading;
 using System.Threading.Tasks;
 using FluentAssertions;
 using GlobalInsightsApi_Assessment.Clients;
@@ -36,12 +37,33 @@ namespace GlobalInsightsApi_Assessment.Tests
             var username = "testuser";
 
             var weatherResponse = new WeatherResponse { City = city, Temperature = 25, Humidity = 60, WindSpeed = 5.2, FeelsLike = 26 };
-            var newsResponse = new NewsResponse { Articles = new List<Article> { new Article { Title = "Sample News", Source = "NewsAPI", PublishedAt = DateTime.UtcNow } } };
-            var gitHubResponse = new GitHubResponse { User = username, Repos = new List<GitHubRepoResponse> { new GitHubRepoResponse { Name = "repo1", Stars = 10 } } };
+            var newsResponse = new NewsResponse
+            {
+                Articles = new List<Article>
+                {
+                    new Article
+                    {
+                        Title = "Sample News",
+                        Source = new Source { Name = "NewsAPI" },
+                        PublishedAt = DateTime.UtcNow
+                    }
+                }
+            };
+            var gitHubResponse = new GitHubResponse
+            {
+                Login = username,
+                PublicRepos = 1
+            };
 
-            _mockWeatherClient.Setup(x => x.GetWeatherAsync(city)).ReturnsAsync(weatherResponse);
-            _mockNewsClient.Setup(x => x.GetNewsAsync(query)).ReturnsAsync(newsResponse);
-            _mockGitHubClient.Setup(x => x.GetUserInfoAsync(username)).ReturnsAsync(gitHubResponse);
+            _mockWeatherClient
+                .Setup(x => x.GetWeatherAsync(city, It.IsAny<CancellationToken>()))
+                .ReturnsAsync(weatherResponse);
+            _mockNewsClient
+                .Setup(x => x.GetNewsAsync(query, It.IsAny<CancellationToken>()))
+                .ReturnsAsync(newsResponse);
+            _mockGitHubClient
+                .Setup(x => x.GetUserInfoAsync(username, It.IsAny<CancellationToken>()))
+                .ReturnsAsync(gitHubResponse);
 
             // Act
             var result = await _insightsService.GetAggregatedInsightsAsync(city, query, username);
@@ -59,7 +81,9 @@ namespace GlobalInsightsApi_Assessment.Tests
             // Arrange
             var city = "Athens";
             var weatherResponse = new WeatherResponse { City = city, Temperature = 25, Humidity = 60, WindSpeed = 5.2, FeelsLike = 26 };
-            _mockWeatherClient.Setup(x => x.GetWeatherAsync(city)).ReturnsAsync(weatherResponse);
+            _mockWeatherClient
+                .Setup(x => x.GetWeatherAsync(city, It.IsAny<CancellationToken>()))
+                .ReturnsAsync(weatherResponse);
 
             // Act
             var result = await _insightsService.GetWeatherInsightsAsync(city);
@@ -73,8 +97,21 @@ namespace GlobalInsightsApi_Assessment.Tests
         {
             // Arrange
             var query = "test";
-            var newsResponse = new NewsResponse { Articles = new List<Article> { new Article { Title = "Sample News", Source = "NewsAPI", PublishedAt = DateTime.UtcNow } } };
-            _mockNewsClient.Setup(x => x.GetNewsAsync(query)).ReturnsAsync(newsResponse);
+            var newsResponse = new NewsResponse
+            {
+                Articles = new List<Article>
+                {
+                    new Article
+                    {
+                        Title = "Sample News",
+                        Source = new Source { Name = "NewsAPI" },
+                        PublishedAt = DateTime.UtcNow
+                    }
+                }
+            };
+            _mockNewsClient
+                .Setup(x => x.GetNewsAsync(query, It.IsAny<CancellationToken>()))
+                .ReturnsAsync(newsResponse);
 
             // Act
             var result = await _insightsService.GetNewsInsightsAsync(query);
@@ -88,8 +125,14 @@ namespace GlobalInsightsApi_Assessment.Tests
         {
             // Arrange
             var username = "testuser";
-            var gitHubResponse = new GitHubResponse { User = username, Repos = new List<GitHubRepoResponse> { new GitHubRepoResponse { Name = "repo1", Stars = 10 } } };
-            _mockGitHubClient.Setup(x => x.GetUserInfoAsync(username)).ReturnsAsync(gitHubResponse);
+            var gitHubResponse = new GitHubResponse
+            {
+                Login = username,
+                PublicRepos = 1
+            };
+            _mockGitHubClient
+                .Setup(x => x.GetUserInfoAsync(username, It.IsAny<CancellationToken>()))
+                .ReturnsAsync(gitHubResponse);
 
             // Act
             var result = await _insightsService.GetGitHubInsightsAsync(username);
@@ -108,11 +151,28 @@ namespace GlobalInsightsApi_Assessment.Tests
             var username = "testuser";
 
             var weatherResponse = new WeatherResponse { City = city, Temperature = 25, Humidity = 60, WindSpeed = 5.2, FeelsLike = 26 };
-            var newsResponse = new NewsResponse { Articles = new List<Article> { new Article { Title = "Sample News", Source = "NewsAPI", PublishedAt = DateTime.UtcNow } } };
+            var newsResponse = new NewsResponse
+            {
+                Articles = new List<Article>
+                {
+                    new Article
+                    {
+                        Title = "Sample News",
+                        Source = new Source { Name = "NewsAPI" },
+                        PublishedAt = DateTime.UtcNow
+                    }
+                }
+            };
             // Simulate GitHub client throwing an exception
-            _mockWeatherClient.Setup(x => x.GetWeatherAsync(city)).ReturnsAsync(weatherResponse);
-            _mockNewsClient.Setup(x => x.GetNewsAsync(query)).ReturnsAsync(newsResponse);
-            _mockGitHubClient.Setup(x => x.GetUserInfoAsync(username)).ThrowsAsync(new Exception("GitHub API error"));
+            _mockWeatherClient
+                .Setup(x => x.GetWeatherAsync(city, It.IsAny<CancellationToken>()))
+                .ReturnsAsync(weatherResponse);
+            _mockNewsClient
+                .Setup(x => x.GetNewsAsync(query, It.IsAny<CancellationToken>()))
+                .ReturnsAsync(newsResponse);
+            _mockGitHubClient
+                .Setup(x => x.GetUserInfoAsync(username, It.IsAny<CancellationToken>()))
+                .ThrowsAsync(new Exception("GitHub API error"));
 
             // Act
             var result = await _insightsService.GetAggregatedInsightsAsync(city, query, username);

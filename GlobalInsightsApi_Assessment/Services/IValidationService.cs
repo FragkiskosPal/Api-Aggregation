@@ -19,6 +19,12 @@ public interface IValidationService
     void ValidateNewsQuery(string query);
 
     /// <summary>
+    /// Επικυρώνει μια κατηγορία ειδήσεων
+    /// </summary>
+    /// <param name="category">Η κατηγορία ειδήσεων</param>
+    void ValidateNewsCategory(string category);
+
+    /// <summary>
     /// Επικυρώνει ένα GitHub username
     /// </summary>
     /// <param name="username">Το GitHub username</param>

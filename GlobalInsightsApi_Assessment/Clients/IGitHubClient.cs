@@ -1,6 +1,7 @@
 ﻿using GlobalInsightsApi_Assessment.Models_Settings.GitHub;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace GlobalInsightsApi_Assessment.Clients;
 
@@ -16,4 +17,10 @@ public interface IGitHubClient
     /// <param name="ct">CancellationToken</param>
     /// <returns>Οι πληροφορίες του χρήστη</returns>
     Task<GitHubResponse> GetUserInfoAsync(string username, CancellationToken ct = default);
+
+    Task<List<GitHubRepoResponse>> GetUserReposAsync(
+        string username,
+        int page = 1,
+        int perPage = 5,
+        CancellationToken ct = default);
 }

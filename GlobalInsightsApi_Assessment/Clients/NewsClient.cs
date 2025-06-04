@@ -58,9 +58,14 @@ public class NewsClient : INewsClient
             Description = apiArticle.Description,
             Url = apiArticle.Url,
             PublishedAt = apiArticle.PublishedAt,
-            Source = apiArticle.Source.Name,
+            Source = new Source
+            {
+                Id = apiArticle.Source.Id,
+                Name = apiArticle.Source.Name
+            },
             Author = apiArticle.Author,
-            Content = apiArticle.Content
+            Content = apiArticle.Content,
+            UrlToImage = apiArticle.UrlToImage
         };
     }
 }
